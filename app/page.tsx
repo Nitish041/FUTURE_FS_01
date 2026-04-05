@@ -18,11 +18,11 @@ export default function Home() {
           speed={0.5}
           direction="forward"
           scale={1.08}
-          opacity={0.48}
+          opacity={0.58}
           mouseInteractive
         />
-        <div className="absolute inset-0 bg-[#f4f2ee]/58" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.6),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(0,0,0,0.1),transparent_30%)]" />
+        <div className="absolute inset-0 bg-[#f4f2ee]/48 sm:bg-[#f4f2ee]/58" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.45),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(0,0,0,0.12),transparent_30%)] sm:bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.6),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(0,0,0,0.1),transparent_30%)]" />
       </div>
 
       <Navbar />

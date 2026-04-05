@@ -10,6 +10,19 @@ interface FloatingParticlesProps {
   opacity?: number;
 }
 
+const hexToRgba = (hex: string, alpha: number) => {
+  const value = hex.replace('#', '');
+  const normalized = value.length === 3
+    ? value.split('').map((char) => char + char).join('')
+    : value;
+
+  const red = parseInt(normalized.slice(0, 2), 16);
+  const green = parseInt(normalized.slice(2, 4), 16);
+  const blue = parseInt(normalized.slice(4, 6), 16);
+
+  return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+};
+
 const FloatingParticles: React.FC<FloatingParticlesProps> = ({
   count = 50,
   color = '#ff6b35',
@@ -69,7 +82,7 @@ const FloatingParticles: React.FC<FloatingParticlesProps> = ({
         // Draw particle
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = color.replace('rgb', 'rgba').replace(')', `, ${particle.opacity})`);
+        ctx.fillStyle = hexToRgba(color, particle.opacity);
         ctx.fill();
 
         // Add subtle glow
