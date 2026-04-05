@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F5F2EC"/>
+  <rect x="58" y="58" width="1084" height="784" rx="42" fill="#FBFAF7" stroke="#D7D1C7"/>
+  <rect x="108" y="108" width="984" height="56" rx="18" fill="#171717"/>
+  <circle cx="144" cy="136" r="8" fill="#F5F2EC"/>
+  <circle cx="172" cy="136" r="8" fill="#9A9A9A"/>
+  <circle cx="200" cy="136" r="8" fill="#5F5F5F"/>
+  <rect x="142" y="248" width="250" height="188" rx="28" fill="#EFEAE1"/>
+  <path d="M190 386C216 338 244 326 276 302C314 273 348 273 392 246" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="192" cy="384" r="13" fill="#111111"/>
+  <circle cx="275" cy="304" r="13" fill="#111111"/>
+  <circle cx="393" cy="247" r="13" fill="#111111"/>
+  <rect x="142" y="470" width="250" height="176" rx="28" fill="#171717"/>
+  <path d="M174 604H360" stroke="#F8F6F1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M174 560H318" stroke="#A9A39A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M174 516H282" stroke="#6F6F6F" stroke-width="12" stroke-linecap="round"/>
+  <rect x="448" y="246" width="520" height="400" rx="38" fill="#ECE6DC"/>
+  <path d="M508 574C584 496 636 518 700 436C765 352 830 308 908 318" stroke="#111111" stroke-width="16" stroke-linecap="round"/>
+  <path d="M508 598C558 564 594 550 652 514C712 476 794 424 908 362" stroke="#8E8A84" stroke-width="10" stroke-linecap="round" stroke-dasharray="1 25"/>
+  <circle cx="509" cy="575" r="18" fill="#111111"/>
+  <circle cx="699" cy="438" r="18" fill="#111111"/>
+  <circle cx="907" cy="319" r="18" fill="#111111"/>
+  <text x="140" y="738" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="500">Price Forecasting</text>
+  <text x="144" y="786" fill="#6D6A66" font-family="Arial, Helvetica, sans-serif" font-size="26">Machine learning dashboard for vegetable market trends</text>
+</svg>

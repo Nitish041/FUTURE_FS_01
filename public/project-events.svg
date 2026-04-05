@@ -1,0 +1,21 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F5F2EC"/>
+  <rect x="58" y="58" width="1084" height="784" rx="42" fill="#FBFAF7" stroke="#D7D1C7"/>
+  <rect x="108" y="108" width="984" height="56" rx="18" fill="#171717"/>
+  <circle cx="144" cy="136" r="8" fill="#F5F2EC"/>
+  <circle cx="172" cy="136" r="8" fill="#9A9A9A"/>
+  <circle cx="200" cy="136" r="8" fill="#5F5F5F"/>
+  <rect x="140" y="234" width="412" height="432" rx="34" fill="#EEE8DE"/>
+  <rect x="192" y="284" width="308" height="58" rx="18" fill="#171717"/>
+  <rect x="192" y="380" width="308" height="236" rx="26" fill="#FBFAF7" stroke="#D4CEC4" stroke-width="8"/>
+  <path d="M246 440H446" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M246 496H446" stroke="#8C867F" stroke-width="12" stroke-linecap="round"/>
+  <path d="M246 552H382" stroke="#8C867F" stroke-width="12" stroke-linecap="round"/>
+  <rect x="620" y="238" width="442" height="428" rx="34" fill="#171717"/>
+  <rect x="678" y="306" width="326" height="230" rx="28" fill="#F8F6F1"/>
+  <path d="M740 270V344" stroke="#F8F6F1" stroke-width="14" stroke-linecap="round"/>
+  <path d="M942 270V344" stroke="#F8F6F1" stroke-width="14" stroke-linecap="round"/>
+  <path d="M732 420L820 500L936 372" stroke="#111111" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="140" y="738" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="500">Event Management</text>
+  <text x="144" y="786" fill="#6D6A66" font-family="Arial, Helvetica, sans-serif" font-size="26">Booking, scheduling, and ticket flow dashboard</text>
+</svg>

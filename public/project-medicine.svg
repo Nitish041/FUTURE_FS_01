@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F5F2EC"/>
+  <rect x="58" y="58" width="1084" height="784" rx="42" fill="#FBFAF7" stroke="#D7D1C7"/>
+  <rect x="108" y="108" width="984" height="56" rx="18" fill="#171717"/>
+  <circle cx="144" cy="136" r="8" fill="#F5F2EC"/>
+  <circle cx="172" cy="136" r="8" fill="#9A9A9A"/>
+  <circle cx="200" cy="136" r="8" fill="#5F5F5F"/>
+  <rect x="138" y="234" width="292" height="422" rx="34" fill="#ECE6DC"/>
+  <rect x="194" y="276" width="180" height="338" rx="26" fill="#FBFAF7" stroke="#D2CBC0" stroke-width="8"/>
+  <path d="M284 330V560" stroke="#111111" stroke-width="18" stroke-linecap="round"/>
+  <path d="M210 444H358" stroke="#111111" stroke-width="18" stroke-linecap="round"/>
+  <rect x="492" y="236" width="570" height="140" rx="34" fill="#171717"/>
+  <text x="548" y="310" fill="#F8F6F1" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="500">Expiry Alerts</text>
+  <rect x="492" y="416" width="270" height="240" rx="32" fill="#F1ECE4"/>
+  <rect x="792" y="416" width="270" height="240" rx="32" fill="#E4DED4"/>
+  <path d="M542 492H706" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M542 548H678" stroke="#86817A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M842 486H996" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M842 542H958" stroke="#86817A" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="998" cy="602" r="26" fill="#111111"/>
+  <path d="M998 588V616" stroke="#F8F6F1" stroke-width="8" stroke-linecap="round"/>
+  <path d="M984 602H1012" stroke="#F8F6F1" stroke-width="8" stroke-linecap="round"/>
+  <text x="140" y="738" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="500">Medicine Tracker</text>
+  <text x="144" y="786" fill="#6D6A66" font-family="Arial, Helvetica, sans-serif" font-size="26">Refill reminders and expiry monitoring interface</text>
+</svg>

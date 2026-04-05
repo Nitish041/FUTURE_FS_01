@@ -1,0 +1,26 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F5F2EC"/>
+  <rect x="58" y="58" width="1084" height="784" rx="42" fill="#FBFAF7" stroke="#D7D1C7"/>
+  <rect x="108" y="108" width="984" height="56" rx="18" fill="#171717"/>
+  <circle cx="144" cy="136" r="8" fill="#F5F2EC"/>
+  <circle cx="172" cy="136" r="8" fill="#9A9A9A"/>
+  <circle cx="200" cy="136" r="8" fill="#5F5F5F"/>
+  <rect x="150" y="248" width="220" height="130" rx="28" fill="#171717"/>
+  <text x="206" y="326" fill="#F8F6F1" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="500">Build</text>
+  <rect x="490" y="248" width="220" height="130" rx="28" fill="#E8E1D6"/>
+  <text x="545" y="326" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="500">Test</text>
+  <rect x="830" y="248" width="220" height="130" rx="28" fill="#171717"/>
+  <text x="862" y="326" fill="#F8F6F1" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="500">Deploy</text>
+  <path d="M370 312H490" stroke="#111111" stroke-width="14" stroke-linecap="round"/>
+  <path d="M710 312H830" stroke="#111111" stroke-width="14" stroke-linecap="round"/>
+  <path d="M466 290L490 312L466 334" stroke="#111111" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M806 290L830 312L806 334" stroke="#111111" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="176" y="460" width="848" height="150" rx="34" fill="#EFE9DF"/>
+  <path d="M252 534H944" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="252" cy="534" r="22" fill="#111111"/>
+  <circle cx="484" cy="534" r="22" fill="#111111"/>
+  <circle cx="718" cy="534" r="22" fill="#111111"/>
+  <circle cx="944" cy="534" r="22" fill="#111111"/>
+  <text x="140" y="738" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="500">CI/CD Pipeline</text>
+  <text x="144" y="786" fill="#6D6A66" font-family="Arial, Helvetica, sans-serif" font-size="26">Dockerized delivery flow with automated deployment and cloud basics</text>
+</svg>
