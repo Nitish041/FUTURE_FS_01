@@ -1,23 +1,45 @@
-# NitishKumar Naik - Developer Portfolio
+# 🚀 Nitish Kumar Naik - Developer Portfolio
 
-A modern, premium developer portfolio built with Next.js, TypeScript, and Tailwind CSS featuring a dark theme with gradient aesthetics and glassmorphism effects.
+🔗 **Live Demo:** https://future-fs-01-alpha-five.vercel.app/
 
-## 🚀 Features
+This is my professional portfolio website built as part of **Future Interns – Full Stack Web Development Task 1**.
 
-- **Modern Design**: Dark theme with gradient accents (orange/red/purple)
-- **Glassmorphism Effects**: Blurred backgrounds and soft transparency
-- **Responsive Layout**: Mobile-first design that works on all devices
-- **Smooth Animations**: Subtle hover effects and transitions
-- **Component-Based Architecture**: Clean, maintainable code structure
-- **TypeScript**: Full type safety throughout the application
+---
+
+## 🔍 Overview
+
+A modern, premium developer portfolio built using **Next.js, TypeScript, and Tailwind CSS** featuring a dark theme with gradient aesthetics and glassmorphism effects.
+
+This portfolio showcases:
+
+* My skills and technologies
+* Projects I have built
+* My background and achievements
+* Contact information
+
+---
+
+## ✨ Features
+
+* Modern dark UI with gradient effects (orange/red/purple)
+* Glassmorphism design with soft transparency
+* Fully responsive (mobile + desktop)
+* Smooth hover animations and transitions
+* Resume download functionality
+* Projects with GitHub + Live Demo links
+* SEO optimized structure
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Deployment**: Ready for Vercel/Netlify
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Deployment:** Vercel
+
+---
 
 ## 📁 Project Structure
 
@@ -25,107 +47,79 @@ A modern, premium developer portfolio built with Next.js, TypeScript, and Tailwi
 portfolio/
 ├── app/
 │   ├── components/
-│   │   ├── Navbar.tsx      # Navigation component
-│   │   ├── Hero.tsx        # Hero section with profile
-│   │   ├── About.tsx       # About section
-│   │   ├── Projects.tsx    # Projects showcase
-│   │   ├── Skills.tsx      # Skills and certifications
-│   │   └── Contact.tsx     # Contact information
-│   ├── globals.css         # Global styles
-│   ├── layout.tsx          # Root layout
-│   └── page.tsx            # Main page
-├── public/                 # Static assets
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Skills.tsx
+│   │   └── Contact.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
 └── package.json
 ```
 
+---
+
 ## 🏃‍♂️ Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 📱 Sections
-
-### Hero Section
-- Premium rounded card design with gradient background
-- Profile area with placeholder for image
-- Call-to-action buttons for projects and resume
-
-### About Section
-- Personal introduction and background
-- Key statistics (CGPA, projects, certifications)
-- Visual elements with floating badges
-
-### Projects Section
-- Grid layout showcasing 3 main projects
-- Hover effects with scale and glow
-- Technology stack badges
-- Links to GitHub and live demos
-
-### Skills Section
-- Categorized skill display
-- Progress bars and badges
-- Certifications showcase
-
-### Contact Section
-- Contact information cards
-- Social media links
-- Resume download button
-
-## 🎨 Design Features
-
-- **Color Palette**: Black background with orange/red/purple gradients
-- **Typography**: Clean, modern fonts with proper hierarchy
-- **Spacing**: Consistent padding and margins throughout
-- **Effects**: Soft shadows, backdrop blur, and gradient overlays
-- **Responsiveness**: Optimized for mobile, tablet, and desktop
-
-## 🔧 Customization
-
-### Adding Your Information
-1. Update personal details in each component
-2. Replace placeholder images with actual photos
-3. Add real project links and descriptions
-4. Update contact information and social links
-
-### Styling Changes
-- Modify colors in Tailwind classes
-- Adjust gradients and effects
-- Update spacing and typography
-
-## 📦 Build & Deploy
+### 1. Clone the repository
 
 ```bash
-# Build for production
-npm run build
-
-# Start production server
-npm start
+git clone https://github.com/Nitish041/FUTURE_FS_01.git
+cd FUTURE_FS_01
 ```
 
-## 🤝 Contributing
+### 2. Install dependencies
 
-Feel free to fork this project and customize it for your own portfolio!
+```bash
+npm install
+```
 
-## 📄 License
+### 3. Run the development server
 
-This project is open source and available under the [MIT License](LICENSE).
+```bash
+npm run dev
+```
+
+Open 👉 http://localhost:3000
 
 ---
 
-**Built with ❤️ by NitishKumar Naik**
+## 📱 Sections
+
+* Hero Section – Introduction, profile, CTA buttons
+* About Section – Background and achievements
+* Projects Section – Portfolio projects with live demos
+* Skills Section – Technologies and certifications
+* Contact Section – Contact info and resume
+
+---
+
+## 🎨 Design Highlights
+
+* Dark theme with gradient glow effects
+* Glassmorphism UI
+* Clean typography and spacing
+* Fully responsive layout
+
+---
+
+## 📬 Contact
+
+* GitHub: https://github.com/Nitish041
+* LinkedIn: [www.linkedin.com/in/nitish-naik-909249293](http://www.linkedin.com/in/nitish-naik-909249293)
+* Email: [nitishnaik041@gmail.com](mailto:nitishnaik041@gmail.com)
+
+---
+
+## 📌 Note
+
+This project is part of **Future Interns – Full Stack Web Development Task 1** and represents my professional portfolio.
+
+---
+
+## ❤️ Built By
+
+**Nitish Kumar Naik**
