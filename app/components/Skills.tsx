@@ -5,27 +5,27 @@ export default function Skills() {
     {
       title: 'Programming',
       skills: ['C', 'Java', 'Python'],
-      color: 'from-black/55 to-black/20',
+      description: 'Core problem-solving and programming fundamentals used across backend logic and application development.',
     },
     {
       title: 'Web Development',
       skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Flask', 'Laravel', 'REST API'],
-      color: 'from-black/60 to-black/30',
+      description: 'Frontend and backend technologies used to build responsive interfaces and connected application workflows.',
     },
     {
       title: 'Databases',
       skills: ['MySQL', 'MongoDB'],
-      color: 'from-black/50 to-black/25',
+      description: 'Experience designing structured data models and working with relational and document-based storage.',
     },
     {
       title: 'DevOps & Cloud',
       skills: ['Docker', 'GitHub Actions', 'Linux Basics', 'Google Cloud Basics', 'AWS Basics'],
-      color: 'from-black/45 to-black/18',
+      description: 'Foundational deployment and automation tools I am actively learning to ship and scale applications.',
     },
     {
       title: 'Tools & Technologies',
       skills: ['GitHub', 'VS Code', 'Excel'],
-      color: 'from-black/52 to-black/22',
+      description: 'Everyday tools that support version control, development workflow, and productivity.',
     },
   ];
 
@@ -65,29 +65,23 @@ export default function Skills() {
         </div>
 
         {/* Skills Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 xl:grid-cols-5 gap-6 mb-16">
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="group p-6 rounded-3xl bg-gradient-to-br from-white/70 to-[#e7e2d9]/75 backdrop-blur-sm border border-black/10 hover:border-black/20 transition-all duration-300 hover:scale-105"
+              className="group flex flex-col p-6 rounded-3xl bg-gradient-to-br from-white/70 to-[#e7e2d9]/75 backdrop-blur-sm border border-black/10 hover:border-black/20 transition-all duration-300 hover:scale-[1.02]"
             >
               <h3 className="text-lg font-semibold text-[#111111] mb-4 group-hover:text-black/70 transition-colors duration-300">
                 {category.title}
               </h3>
-              <div className="space-y-3">
-                {category.skills.map((skill, skillIndex) => (
-                  <div
-                    key={skillIndex}
-                    className={`h-2 rounded-full bg-gradient-to-r ${category.color} opacity-60 group-hover:opacity-100 transition-opacity duration-300`}
-                    style={{ width: `${Math.random() * 40 + 60}%` }}
-                  ></div>
-                ))}
-              </div>
-              <div className="mt-4 flex flex-wrap gap-2">
+              <p className="mb-5 text-sm leading-7 text-black/55">
+                {category.description}
+              </p>
+              <div className="mt-auto flex flex-wrap gap-2">
                 {category.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="px-3 py-1 text-xs font-medium bg-black/[0.04] text-black/60 rounded-full border border-black/10 hover:bg-black/[0.06] hover:text-[#111111] transition-all duration-300"
+                    className="px-3 py-1 text-xs font-medium bg-white/65 text-black/65 rounded-full border border-black/10 hover:bg-white hover:text-[#111111] transition-all duration-300"
                   >
                     {skill}
                   </span>

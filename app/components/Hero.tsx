@@ -19,8 +19,8 @@ export default function Hero() {
 
         <div className="relative z-10 h-full rounded-[2.5rem] overflow-hidden border border-black/10 bg-[#fbfaf7]/75 shadow-[0_35px_100px_rgba(15,15,15,0.12)]">
           <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-white/35 to-black/5 blur-3xl opacity-80" />
-          <div className="relative grid lg:grid-cols-2 gap-12 h-full p-8 lg:p-12">
-            <div className="flex flex-col justify-center space-y-8">
+          <div className="relative grid lg:grid-cols-2 gap-10 h-full p-6 sm:p-8 lg:p-12">
+            <div className="order-2 lg:order-1 flex flex-col justify-center space-y-8">
               <div className="space-y-4">
                 <AnimatedText
                   text="Hey, I&apos;m"
@@ -65,12 +65,12 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="flex items-center justify-center lg:justify-end">
+            <div className="order-1 lg:order-2 flex items-center justify-center lg:justify-end">
               <div className="relative">
-                <div className="w-72 h-72 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-black/[0.04] to-white/60 backdrop-blur-sm border border-black/8 flex items-center justify-center">
-                  <div className="relative w-64 h-64 lg:w-72 lg:h-72 overflow-hidden rounded-full bg-white shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                <div className="w-52 h-52 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-black/[0.04] to-white/60 backdrop-blur-sm border border-black/8 flex items-center justify-center">
+                  <div className="relative h-44 w-44 sm:h-56 sm:w-56 lg:h-72 lg:w-72 overflow-hidden rounded-full bg-white shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
                     <Image
-                      src="/nitish image.jpg"
+                      src="/nitish-kumar-photo.jpg"
                       alt="NitishKumar Naik portrait"
                       fill
                       sizes="(min-width: 1024px) 18rem, 16rem"
